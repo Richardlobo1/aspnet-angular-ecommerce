@@ -1,0 +1,89 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Node / Angular
+# =========================
+node_modules/
+dist/
+dist-ssr/
+out-tsc/
+.angular/
+.angular/cache/
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =========================
+# ASP.NET Core
+# =========================
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+*.dbmdl
+*.bak
+*.mdf
+*.ldf
+
+# User-specific files
+*.swp
+*.user
+*.userprefs
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# ASP.NET Identity / Secrets
+appsettings.Development.json
+appsettings.*.json
+secrets.json
+
+# Publish outputs
+wwwroot/lib/
+publish/
+PublishProfiles/
+
+# =========================
+# Logs / Misc
+# =========================
+*.nlog
+*.serilog.json
+*.xml
+*.docx
+*.xlsx
+
+# =========================
+# Test results
+# =========================
+TestResult.xml
+*.trx
+*.coverage
+*.coveragexml
+
+# =========================
+# JetBrains Rider
+# =========================
+.idea/
+*.sln.iml
